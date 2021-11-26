@@ -21,6 +21,7 @@ namespace lesson8
             NewSetting();
 
             Settings.Default.Save();
+
             Console.WriteLine("Для завершения нажмите любую кнопку");
             Console.ReadKey();
         }
